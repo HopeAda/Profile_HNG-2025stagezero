@@ -3,12 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/05d1290b0d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
     <title>HopeAda's Profile</title>
 </head>
 <body>
     <div class="card">
-        <div class="profile-pic"></div>
+        <div class="profile">
+            <div class="profile-pic" data-testid="profilePicture"></div>
+            <div class="about-me">
+                <span class="name" data-testid="fullName"><h1>Adama Asenath N.</h1></span>
+                <span class="job-title" data-testid="jobTitle"><h2>Senior Front-End Developer</h2></span>
+            </div>
+        </div>
+            <span class="bio" data-testid="shortBio"></span>
+            <span class="current-location" data-testid="currentLocation"></span>
+            <span class="email" data-testid="emailAddress"></span>
+            <!-- <span class="socials" data-testid="socialLinks">
+                <div><a href="https://www.linkedin.com/in/asenath-adama-624332331" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></div>
+                <div><a href="https://github.com/HopeAda"><i class="fa-brands fa-github"></i></a></div>
+                <div><a href="https://x.com/adam_a90115"><i class="fa-brands fa-x-twitter"></i></a></div>
+            </span> -->
+            <span class="current-time" data-testid="currentTimeUTC"></span>
     </div>
 </body>
+
+<script src="script.js"></script>
 </html>

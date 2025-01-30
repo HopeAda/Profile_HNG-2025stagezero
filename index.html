@@ -8,19 +8,25 @@
     <title>HopeAda's Profile</title>
 </head>
 <body>
+    <!-- The main div element 'card' -->
     <div class="card">
+        <!-- Section for the profile containing profile pic and description -->
         <div class="profile">
-            <div class="profile-pic" data-testid="profilePicture"></div>
+            <div class="profile-pic" data-testid="profilePicture">
+                <img src="ProfilePic.jpg" alt="a profile pic" class="profile-pic-main">
+            </div>
             <div class="about-me">
                 <span class="name" data-testid="fullName"><h1>Adama Asenath</h1></span>
                 <span class="job-title" data-testid="jobTitle"><h2>Senior Front-End Developer</h2></span>
             </div>
         </div>
+
+        <!-- The bio section -->
             <span class="bio" data-testid="shortBio">
                 <h3>About Me:</h3>
                 <p>I am a passionate front-end developer who is skilled in the basics of HTML, CSS, JavaScript. I specialize in creating user-friendly and visually appealing interfaces that enhance a user's experience. I work best in collaboration with people of a like mind. I love learning new things and furthering myself in the pursuit of knowledge to make the world a better place, or atleast a little easier.</p></span>
 
-                
+                <!-- The contact Information section -->
                 <h3 class="contact">Contact Me:</h3>
                 <span class="socials" data-testid="socialLinks">
                     <div><a href="https://www.linkedin.com/in/asenath-adama-624332331" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></div>
@@ -32,6 +38,7 @@
                         <i class="fa-regular fa-envelope"></i>
                         <a href="mailto:adamannasha@gmail.com" target="_blank">adamannasha@gmail.com</a></span>
             
+                        <!-- The location and time sections -->
             <span class="location-and-time"> 
                 <span class="current-location" data-testid="currentLocation">
                     <i class="fa-solid fa-location-dot"></i>
@@ -42,5 +49,6 @@
     </div>
 </body>
 
+<!-- Javascript file -->
 <script src="script.js"></script>
 </html>

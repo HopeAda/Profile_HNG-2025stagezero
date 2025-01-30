@@ -83,6 +83,7 @@ h3{
     border-radius: 50%;
     overflow: hidden;
     margin-bottom: 1rem;
+    object-fit: cover;
     transition: transform .5s, box-shadow .4s;
     box-shadow: 1px 1px 5px 2px var(--main-color);
 }
@@ -93,7 +94,6 @@ h3{
 }
 .profile-pic-main{
     width: 9rem;
-    object-fit: cover;
 }
 
 
@@ -182,7 +182,7 @@ h3.contact{
 
 
 /* Styles for screens greater than 720px */
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 600px) {
     .card{
         width: 50%;
     }
@@ -202,6 +202,7 @@ h3.contact{
     }
     .bio{
         text-align: center;
+        padding: 0 2.5rem;
     }
     
 }
